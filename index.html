@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitStatic</title>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 
+</head>
+<body>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+<div id = "sport-buttons">
+
+</div>
+<!-- This form is for users to input a new sport -->
+<form id ="sport-form">
+    <label for="sport-input">Add a sport</label>
+    <input type="text" id="sport-input"><br>
+
+    <!-- This button will trigger the AJAX call -->
+    <input id="add-sport" type="submit" value="Submit">
+</form>
+
+<div id ="sports">
+
+</div>
+    <!--JAvascript at the end of the body, so it can wait until HTML file is loaded-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>  
+</body>
+</html>
