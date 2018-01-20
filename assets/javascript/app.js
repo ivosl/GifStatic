@@ -5,7 +5,7 @@ var sports = ["hockey", "soccer", "ski", "swimming", "basketball", "rugby", "ten
     // Function for displaying sport gifs
     function renderButtons(){
     // Deleting the sports prior to adding new ones
-    $("sport-buttons").empty();
+    $("#sport-buttons").empty();
     //creating a for loop through the array of sports
     for (var i = 0; i < sports.length; i++) {
        // Then dynamicaly generating buttons for each sport in the array
@@ -64,7 +64,7 @@ var sports = ["hockey", "soccer", "ski", "swimming", "basketball", "rugby", "ten
     
     console.log(results);
 
-    for (var i = 0; i < results.length; i++); {
+    for (var i = 0; i < results.length; i++) {
 
         // Creating a div to hold the sport
         var sportDiv = $("<div class ='sport'>");
@@ -84,7 +84,7 @@ var sports = ["hockey", "soccer", "ski", "swimming", "basketball", "rugby", "ten
        
 
         // Storing the rating data
-       var rating = results(i).rating;
+       var rating = results[i].rating;
        var ratingDisplay = $("<p>").text("Rating: " + rating);
 
        // Displaying the rating
