@@ -1,0 +1,49 @@
+button {
+    background: orange;
+    color:white;
+    height:30px;
+    width:80px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sport-btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background:green;
+}
+
+#add-sport {
+    height:30px;
+    width:80px;
+    font-weight: bold;
+    font-size: 12px;
+    background: rgb(154, 230, 119);
+    
+}
+
+body {
+    margin-left: 50px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sport-input {
+    height:25px;
+    width:150px;
+    font-size: 16px;
+}
+.sport{
+    float:left;
+    margin-right: 5px;
+}
